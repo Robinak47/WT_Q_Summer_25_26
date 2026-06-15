@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Registration Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html"> Home</a>
+      <a href="about_me.html"> about me</a>
+      <a href="contact_me.html"> Contact me</a>
+      <a href="registration.html"> Registration</a>
+    </nav>
+    <h1>Registration</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="uName">Name</label>
+        <input
+          type="text"
+          id="uName"
+          name="uName"
+          placeholder="Enter your name"
+          value=""
+          required
+        /><br />
+        <label>Age</label>
+        <input
+          type="number"
+          min="10"
+          max="100"
+          placeholder="Enter your age"
+        /><br />
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your Email" /><br />
+        <label> Password </label>
+        <input
+          type="password"
+          placeholder="Enter your Password"
+          readonly
+        /><br />
+        <label> Gender</label>
+        <input type="radio" name="gender" value="male" checked />male
+        <input type="radio" name="gender" value="female" />female
+        <input type="radio" name="gender" value="other" />other<br />
+        <label> Favourite Sports</label>
+        <input type="checkbox" value="Cricket" />Cricket
+        <input type="checkbox" value="Football" />Football
+        <input type="checkbox" value="Chess" />Chess<br />
+        <label> Choose Country</label>
+        <select>
+          <option value="">Select an option</option>
+          <option value="USA" selected>USA</option>
+          <option value="UK">UK</option>
+          <option value="AUS">AUS</option>
+          <option value="BN">BN</option></select
+        ><br />
+        <label> Date of Birth </label>
+        <input type="date" /><br />
+        <label> Profile Picture </label>
+        <input type="file" accept="application/pdf" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Academic Information</legend>
+        <label> Last Compeleted Degree</label>
+        <select>
+          <option>Select an option</option>
+          <option>Phd</option>
+          <option>M.sc</option>
+          <option>B.sc</option>
+          <option>Hsc</option></select
+        ><br />
+        <label>Class Time</label>
+        <input type="time" /><br />
+      </fieldset>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
