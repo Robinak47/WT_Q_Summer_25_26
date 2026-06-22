@@ -1,0 +1,94 @@
+/*
+
+Universal selector
+
+*/
+
+* {
+    font-size: large;
+    background-color: aqua;
+    color: brown;
+
+
+}
+
+/*
+
+Element selector
+
+*/
+
+div {
+    border: 2px solid green;
+}
+
+/*
+
+Id selector
+
+*/
+
+#b3 {
+    border: 2px solid red;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+/*
+
+class  selector
+
+*/
+
+.b4 {
+    border: 2px dashed orange;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+
+/*
+
+group  selector
+
+*/
+
+b,
+i,
+span {
+
+    display: block;
+    color: magenta;
+
+    margin: 50px;
+}
+
+/*
+
+decendent  selector
+
+*/
+
+nav a {
+
+
+    color: blueviolet;
+    display: inline-block;
+    border: 1px solid black;
+    width: 80px;
+    height: 40px;
+
+    margin: 50px;
+}
+
+
+div>p {
+    color: burlywood;
+    display: inline-block;
+    border: 1px dashed seagreen;
+    border-radius: 8px;
+}

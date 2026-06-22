@@ -1,0 +1,14 @@
+span {
+    display: inline-block;
+    color: brown;
+    background-color: bisque;
+    background-image: url("https: //imgs.search.brave.com/0LZse7uSKe_HtRGqwOwYrQcnxZNWuNS2uoxxmXW0GSQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci8zMy82/MjUvSEQtd2FsbHBh/cGVyLWFwcGxlLWFw/cGxlLWxvZ28taXBo/b25lLWxvZ28tcGhv/bmUtdGh1bWJuYWls/LmpwZw");
+    width: 200px;
+    height: 400px;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    background-color: green;
+}
