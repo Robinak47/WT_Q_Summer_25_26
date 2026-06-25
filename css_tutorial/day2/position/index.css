@@ -1,0 +1,35 @@
+#sp1 {
+    background-color: aqua;
+}
+
+#sp2 {
+    background-color: magenta;
+    position: relative;
+    top: 200px;
+}
+
+#sp3 {
+    background-color: mediumseagreen;
+}
+
+#parent {
+    position: relative;
+    top: 200px;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+#sp4 {
+    background-color: magenta;
+    position: fixed;
+    left: 0;
+    top: 200px;
+}
+
+#sp5 {
+    background-color: greenyellow;
+    position: sticky;
+    top: 70px;
+
+
+}

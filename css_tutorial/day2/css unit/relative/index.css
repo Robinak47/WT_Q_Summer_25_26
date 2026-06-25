@@ -1,0 +1,32 @@
+/*#parent {
+    background-color: bisque;
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    display: block;
+}*/
+
+#parent {
+    background-color: bisque;
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid black;
+    display: block;
+    font-size: 4vw;
+}
+
+#child1 {
+    background-color: magenta;
+    width: 8em;
+    height: 8em;
+    border: 1px solid black;
+    display: block;
+}
+
+#child2 {
+    background-color: maroon;
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid black;
+    display: block;
+}

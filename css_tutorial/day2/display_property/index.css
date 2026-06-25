@@ -1,0 +1,50 @@
+#div1 {
+    /*display: inline;*/
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+#div2 {
+    /*display: inline;*/
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+}
+
+#sp1 {
+    /*display: block;*/
+    display: inline-block;
+    background-color: goldenrod;
+    width: 50px;
+    height: 50px;
+
+}
+
+#sp2 {
+    /*display: block;*/
+    display: inline-block;
+    background-color: rgb(86, 92, 114);
+    width: 50px;
+    height: 50px;
+
+}
+
+#p1 {
+    display: none;
+}
+
+#container {
+    display: flex;
+    background-color: mediumvioletred;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#child {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 20vw;
+    height: 40vh;
+}
