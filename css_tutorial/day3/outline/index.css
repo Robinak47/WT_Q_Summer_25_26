@@ -1,0 +1,20 @@
+#div1 {
+    border: 3px solid magenta;
+    width: 10vw;
+    height: 20vh;
+    max-width: 100px;
+    /*outline: 30px solid lime;*/
+    outline-width: 10px;
+    outline-color: lime;
+    outline-style: solid;
+    outline-offset: 10px;
+
+}
+
+#div2 {
+    margin-top: 20px;
+    border: 2px solid #4e2fff;
+    width: 10vw;
+    height: 20vh;
+    max-width: 100px;
+}

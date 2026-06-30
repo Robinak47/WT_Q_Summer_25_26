@@ -1,0 +1,15 @@
+#div1 {
+    border: 2px solid magenta;
+    width: 100px;
+    height: 20vh;
+    max-width: 100px;
+    background-color: aqua;
+    /*overflow:visible;*/
+    /*overflow:hidden;*/
+    /*overflow:clip;*/
+    /*overflow:scroll;*/
+    /*overflow:auto;*/
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}

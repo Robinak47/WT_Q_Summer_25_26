@@ -1,0 +1,21 @@
+#div1 {
+    border: 2px solid magenta;
+    width: 10vw;
+    height: 20vh;
+    max-width: 100px;
+    background-color: green;
+    position: relative;
+    top: 120px;
+    z-index: 90;
+}
+
+#div2 {
+    border: 2px solid black;
+    width: 10vw;
+    height: 20vh;
+    max-width: 100px;
+    background-color: red;
+    position: relative;
+    z-index: 100;
+
+}
