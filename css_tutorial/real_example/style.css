@@ -1,0 +1,87 @@
+#header {
+    background-color: bisque;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 35vw;
+}
+
+.profile {
+    background-color: rgb(105, 105, 194);
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+
+.menu {
+    background-color: rgb(128, 169, 155);
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+
+
+.menu-item {
+    background-color: cadetblue;
+    display: inline-block;
+    height: 40px;
+    color: azure;
+    border-radius: 10px;
+}
+
+.menu-item:hover {
+    outline: 2px solid rgb(164, 184, 185);
+}
+
+.menu-item:focus {
+    outline: 10px solid rgb(2, 211, 222);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.footer {
+    background-color: bisque;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    height: 10vh;
+    left: 35vw;
+}
+
+.footer-span {
+    position: relative;
+    top: 4vh;
+    font-weight: bold;
+}
+
+.container {
+    background-color: antiquewhite;
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+
+
+}
+
+.card {
+    background-color: burlywood;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(219, 135, 25);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
