@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <button id="btn1" onclick="alert('moew moew')"> Say Meow </button>
+
+    <button id="btn2" onclick="addFunctionality()"> Change Background Color</button>
+
+    <p id="para1">font size test</p>
+    <button id="btn3" onclick="zoomIn()">zoom In</button>
+
+    <button id="btn4" onclick="zoomOut()">Zoom out</button>
+
+    <script>
+        function addFunctionality() {
+            const btn = document.getElementById("btn1");
+            document.body.style.background = "magenta";
+            btn.style.display = "block";
+        }
+        let fontSize = 30;
+        function zoomIn() {
+            const para = document.getElementById("para1");
+            fontSize = fontSize + 5;
+            para.style.fontSize = fontSize + "px";
+            console.log(fontSize)
+
+        }
+
+        function zoomOut() {
+            const para = document.getElementById("para1");
+            fontSize = fontSize - 5;
+            para.style.fontSize = fontSize + "px";
+            console.log(fontSize)
+
+        }
+    </script>
+</body>
+
+</html>
