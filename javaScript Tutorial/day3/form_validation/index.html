@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="form_validation.js" defer>
+    </script>
+</head>
+
+<body>
+    <form action="" method="" enctype="multipart/form-data" onsubmit="return validateForm()">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+        <span id="nameErr" style="color: red;">
+        </span><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" placeholder="Enter Your Age"><br>
+        <span id="ageErr" style="color: red;">
+        </span><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
+        <span id="emailErr" style="color: red;">
+        </span><br>
+
+        <label for="pass">Password: </label>
+        <input type="password" id="pass" name="pass" placeholder="Enter Your Password"><br>
+        <span id="passErr" style="color: red;">
+        </span><br>
+
+        <label for="conPass">Confirm Password: </label>
+        <input type="password" id="conPass" name="conPass" placeholder="Enter Your Password again"><br>
+        <span id="conPassErr" style="color: red;">
+        </span><br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" id="male" name="gender" value="male">male
+        <input type="radio" id="female" name="gender" value="female">female
+        <br>
+        <span id="genderErr" style="color: red;">
+        </span><br>
+
+        <label for="fabSports">Fab. Sports: </label>
+        <input type="checkbox" id="cricket" name="fabSports" value="cricket">cricket
+        <input type="checkbox" id="football" name="fabSports" value="football">football
+        <br>
+        <span id="fabSportsErr" style="color: red;">
+        </span><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="" id="selectOption">Select an option</option>
+            <option value="usa" id="usa">USA</option>
+            <option value="uk" id="uk">UK</option>
+            <option value="bn" id="bn">BN</option>
+        </select><br>
+        <span id="countryErr" style="color: red;">
+        </span><br>
+
+        <lable for="proPic">Profile Pic:</lable>
+        <input type="file" id="proPic" name="proPic"><br>
+        <span id="proPicErr" style="color: red;">
+        </span><br>
+
+        <input type="submit" id="submit" value="submit" name="submit">
+
+    </form>
+</body>
+
+</html>
